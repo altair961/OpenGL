@@ -18,5 +18,7 @@ int main()
 		return -1;
 	}
 
+	glfwMakeContextCurrent(window);
+
 	return 0;
 }
